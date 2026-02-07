@@ -8,4 +8,4 @@ checkInventory(order)
     })
     .catch((error) => {
         console.log(error);
-    });
+    })
