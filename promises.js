@@ -1,4 +1,4 @@
-const {checkInventory} = require('./library.js');
+import { checkInventory } from './library.js';
 
 const order = [['sunglasses', 200], ['basketballs', 30]];
 

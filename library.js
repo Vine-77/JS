@@ -19,4 +19,4 @@ const checkInventory = (order) =>
     );
 };
  
-module.exports = {checkInventory};
+export default {checkInventory};
