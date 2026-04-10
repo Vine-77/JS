@@ -1,6 +1,7 @@
 let count = 0;
 let counter = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
+let clearBtn = document.getElementById("clear-btn")
 function incrementer() {
   count += 1;
   counter.innerText = count
@@ -15,3 +16,7 @@ function save() {
     saveEl.textContent += history
     reset()
 }
+
+clearBtn.addEventListener('click', () => {
+    saveEl.textContent = "Previous entries: " + ""
+})

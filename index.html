@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Buddy Counter</title>
+    <title>Skipper</title>
     <link rel="stylesheet" href="index.css">
 </head>
     <body>
         <section class="main">
-            <h1>Buddy counter</h1>
+            <h1>Skipper</h1>
             <h2 id="count-el">0</h2>
             <button id="increment-btn" onclick="incrementer()">COUNT</button><br><br><br>
-            <button id="reset-btn" onclick="reset()">Reset</button><br>
-            <button id="save-btn" onclick="save()">Save</button>
-            <p id="save-el">Previous entires: </p>
+            <div class="horizon">
+                <button id="reset-btn" onclick="reset()">Reset</button><br>
+                <button id="save-btn" onclick="save()">Save</button>
+            </div>
+            <div>
+                <p id="save-el">Previous entires: </p>
+                <button id="clear-btn">Clear</button>
+            </div>
             <script src="index.js"></script>
         </section>
     </body>
